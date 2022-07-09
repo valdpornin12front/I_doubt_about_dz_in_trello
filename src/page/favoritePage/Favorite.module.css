@@ -1,0 +1,141 @@
+.main {
+    display: flex;
+  
+  }
+  .mainPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    width: 1215px;
+    margin: 0 auto;
+    
+  }
+  
+  
+  h2{
+    
+    width: 159px;
+    height: 38px;
+    font-size: 28px;
+    line-height: 38px;
+    transform: translateX(170px);
+  }
+  .cards {
+    height: 332px;
+    display: flex;
+  
+  }
+  
+  .cardsImg{
+    background: url('/src/img/Rectangle\ 143.png') ;
+    width: 200px;
+    height: 225px;
+  
+  }
+  
+  .square{
+    transform: translateX( -190px) translateY(250px);
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    background: #F7F7FC;;
+    border-radius: 6px;
+  
+  }
+  .descripCards{
+    margin-left: -88px ;
+  }
+  
+  .descripCards h3{
+    font-size: 20px;
+    line-height: 30px;
+    width: 415px;
+    height: 45px;
+  }
+  .descripCards span {
+    font-size: 14px;
+    line-height: 18px;
+    color: #A4A2AF;
+    width: 363px;
+    height: 18px;
+    
+  }
+  .starCards {
+    width: 250px;
+    height: 20px;
+  }
+  .iconOneCards {
+    background: url('/src/img/star.png') ;
+    list-style: none;
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .iconTwoCards {
+    background: url('/src/img/Icon.png') ;
+    width: 16px;
+    height: 21px;
+  }
+  .buttons h3 {
+    font-size: 24px;
+    line-height: 35px;
+    width: 136px;
+    height: 34px;
+    transform: translateY(-5px);
+  
+  }
+  .buttonCards{
+    width: 145px;
+    height: 50px;
+    background: #F9FC62;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+  .buttonCards p {
+    transform: translateY(-8px);
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    width: 95px;
+    height: 24px;
+  
+  
+  }
+  .deleteBtn {
+    margin-left:30px ;
+  }
+  .iconTwoCards p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #605D74;
+    width: 73px;
+    height: 24px;
+    margin-left: 25px ;
+  }
+  
+  .lineCards{
+    width: 1215px;
+    height: 1px;
+    background: rgba(33, 33, 33, 0.08);
+    margin-top: 50px;
+  
+  }
+  .starCards  {
+    position: relative;
+  }
+  .starCards span{
+    position: absolute;
+    left:153px;
+    top: 2px;
+    color: #0B1124;
+    font-size: 16px;
+  }
+  
